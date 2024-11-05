@@ -14,9 +14,9 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-    Route::get('/brands', \App\Livewire\Brands\Index::class)->name('brands.index');
-    Route::get('/brands/create', \App\Livewire\Brands\Create::class)->name('brands.create');
-    Route::get('/brands/show/{brand}', \App\Livewire\Brands\Show::class)->name('brands.show');
-    Route::get('/brands/update/{brand}', \App\Livewire\Brands\Edit::class)->name('brands.edit');
+    // Route::get('/brands-vehicles', \App\Livewire\BrandsVehicles\Index::class)->name('brands-vehicles.index');
+    // Route::get('/brands-vehicles/create', \App\Livewire\BrandsVehicles\Create::class)->name('brands-vehicles.create');
+    // Route::get('/brands-vehicles/show/{brand}', \App\Livewire\BrandsVehicles\Show::class)->name('brands-vehicles.show');
+    // Route::get('/brands-vehicles/update/{brand}', \App\Livewire\BrandsVehicles\Edit::class)->name('brands-vehicles.edit');
 });
 

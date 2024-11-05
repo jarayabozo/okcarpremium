@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex justify-center mt-10 relative">
+        <div class="flex justify-center gap-4 mt-10 relative">
             <button
                 id="dropdownSearchButton"
                 data-dropdown-toggle="dropdownSearch"
@@ -169,11 +169,6 @@
             <livewire:price-slider :minPrice="0" :maxPrice="1000" />
 
             <!-- Mostrar o usar los datos del filtro -->
-        </div>
-        <div>
-            <p>Rango de precios seleccionado:</p>
-            <p>Mínimo: ${{ $minPrice }}</p>
-            <p>Máximo: ${{ $maxPrice }}</p>
         </div>
         <nav class="flex  py-4 text-white font-semibold">
             <a href="#" class="px-4 py-2 hover:text-yellow-300 active">Todos</a>

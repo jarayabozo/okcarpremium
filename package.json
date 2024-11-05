@@ -23,6 +23,7 @@
         "@tiptap/starter-kit": "^2.8.0",
         "apexcharts": "^3.54.0",
         "flowbite-typography": "^1.0.4",
+        "imask": "^7.6.1",
         "nouislider": "^15.8.1",
         "simple-datatables": "^9.2.1",
         "sweetalert2": "^11.14.2"

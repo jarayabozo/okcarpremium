@@ -1,8 +1,9 @@
 <?php
 namespace Database\Seeders;
 
-use App\Brand;
+use App\Models\BrandVehicle;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class BrandTableSeeder extends Seeder
 {
@@ -131,8 +132,9 @@ class BrandTableSeeder extends Seeder
             ['id'=>120, 'name'=>'JETOUR']
         ];
         foreach ($brands as $brand) {
-            $createBrand = new Brand();
+            $createBrand = new BrandVehicle();
             $createBrand->name = $brand['name'];
+            $createBrand->slug = Str::slug($brand['name']);
             $createBrand->save();
         }
     }

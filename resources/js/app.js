@@ -2,7 +2,7 @@ import './bootstrap';
 import 'flowbite';
 import noUiSlider from 'nouislider';
 import 'nouislider/dist/nouislider.css';
-
+import IMask from 'imask';
 
 document.querySelector('.scrollbar-custom').addEventListener('wheel', function(e) {
     e.preventDefault();
